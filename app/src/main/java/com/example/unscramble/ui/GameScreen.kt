@@ -99,9 +99,7 @@ fun GameScreen() {
 
 @Composable
 fun GameStatus(score: Int, modifier: Modifier = Modifier) {
-    Card(
-        modifier = modifier
-    ) {
+    Card(modifier = modifier) {
         Text(
             text = stringResource(R.string.score, score),
             style = typography.headlineMedium,
