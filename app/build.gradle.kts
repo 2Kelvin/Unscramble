@@ -68,4 +68,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     // viewmodel dependency
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    // adding junit test library dependency
+    testImplementation("junit:junit:4.13.2")
 }
